@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dream Perfume Lab</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>Dream Perfume Lab</header>
+
+  <section class="hero">
+    <h1>Create Your Own Perfume</h1>
+    <p>Mix your favorite scents and build a custom bottle!</p>
+  </section>
+
+  <section class="creator">
+    <h2>Choose Your Scents</h2>
+
+    <div class="scent" onclick="addScent('Vanilla')">Vanilla</div>
+    <div class="scent" onclick="addScent('Jasmine')">Jasmine</div>
+    <div class="scent" onclick="addScent('Musk')">Musk</div>
+    <div class="scent" onclick="addScent('Citrus')">Citrus</div>
+    <div class="scent" onclick="addScent('Rose')">Rose</div>
+
+    <button class="btn" onclick="finalMix()">Create Perfume</button>
+
+    <h3>Selected Scents:</h3>
+    <p id="selected"></p>
+
+    <h3>Your Custom Perfume:</h3>
+    <p id="result" class="result"></p>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>

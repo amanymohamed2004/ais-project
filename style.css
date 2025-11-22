@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #fff8f0;
+  text-align: center;
+}
+header {
+  background: #b56576;
+  color: white;
+  padding: 25px;
+  font-size: 30px;
+  font-weight: bold;
+}
+.hero {
+  padding: 40px 20px;
+  background: #e8c2ca;
+  color: #333;
+}
+.creator {
+  padding: 30px;
+}
+.scent {
+  background: #fff;
+  margin: 10px auto;
+  width: 200px;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  cursor: pointer;
+  font-size: 18px;
+  transition: 0.2s;
+}
+.scent:hover {
+  background: #f0d4da;
+}
+.btn {
+  background: #b56576;
+  color: #fff;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 20px;
+  font-size: 18px;
+}
+.btn:hover {
+  background: #9b4e5f;
+}
+.result {
+  font-size: 20px;
+  color: #6a2940;
+  font-weight: bold;
+  margin-top: 15px;
+}
